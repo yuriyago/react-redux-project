@@ -44,7 +44,7 @@ class App extends Component {
 	renderCategoryList() {
 		return this.props.category.map((category) => {
 			return (
-				<li>
+				<li key={category}>
 					<button onClick={() => this.categoryContent(category)}>{category}</button>
 				</li>
 			)
