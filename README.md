@@ -1,1 +1,7 @@
-# react-redux-project
+#Run :
+- npm install
+- npm start
+
+#Nav:
+
+localhost:8080
