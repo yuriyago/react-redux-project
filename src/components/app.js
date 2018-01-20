@@ -65,7 +65,6 @@ class App extends Component {
 			      	</p>
 			      	<p>
 			      		icon_url : {this.state.content.icon_url} 
-			      		<a href={this.state.content.url} target="_blank"><img src={this.state.content.icon_url} /></a>
 		      		</p>
 		      		<p>
 				      	id : {this.state.content.id} 
